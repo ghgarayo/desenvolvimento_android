@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp"  >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginVertical="10dp"/>
+
+    <Button
+        android:id="@+id/btnAbrir"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Abrir Segunda Activity" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terceira TextView"
+        android:layout_marginVertical="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Texto 01"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Texto 02"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Texto 03"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtBox1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                android:background="#AEAEAE"
+                android:gravity="center"
+                android:text="BOX 1" />
+
+            <TextView
+                android:id="@+id/txtBox2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="BOX 2"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                android:background="#AEAEAE"/>
+
+            <TextView
+                android:id="@+id/txtBox3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="BOX 3"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                android:background="#AEAEAE"/>
+
+            <TextView
+                android:id="@+id/txtBox4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="BOX 4"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                android:background="#AEAEAE"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
