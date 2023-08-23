@@ -63,6 +63,141 @@
                 android:layout_height="50dp"
                 android:text="Acessar" />
         </LinearLayout>
+
+        <!-- Conteúdo da seção de exercício 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textExercicio2"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Exercicio 2"/>
+
+            <Button
+                android:id="@+id/btnOpenExercise2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Acessar" />
+        </LinearLayout>
+
+        <!-- Conteúdo da seção de exercício 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textExercicio3"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Exercicio 3"/>
+
+            <Button
+                android:id="@+id/btnOpenExercise3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Acessar" />
+        </LinearLayout>
+
+        <!-- Conteúdo da seção de exercício 4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textExercicio4"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Exercicio 4"/>
+
+            <Button
+                android:id="@+id/btnOpenExercise4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Acessar" />
+        </LinearLayout>
+
+        <!-- Conteúdo da seção de exercício 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textExercicio5"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=" "/>
+
+            <Button
+                android:id="@+id/btnOpenExercise5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Acessar" />
+        </LinearLayout>
+
+        <!-- Conteúdo da seção de exercício 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textExercicio6"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=" "/>
+
+            <Button
+                android:id="@+id/btnOpenExercise6"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Acessar" />
+        </LinearLayout>
+
+        <!-- Conteúdo da seção de exercício 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textExercicio7"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=" "/>
+
+            <Button
+                android:id="@+id/btnOpenExercise7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Acessar" />
+        </LinearLayout>
+
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

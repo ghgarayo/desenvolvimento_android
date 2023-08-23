@@ -27,25 +27,29 @@ class Exercicio1 : AppCompatActivity() {
 
         binding.btnCalculateSalaryIncrease.setOnClickListener {
 
+            currentSalary = binding.editCurrentSalary.text.toString()
+            percentage = binding.editPercentage.text.toString()
 
-            if (binding.textCurrentSalary.text.isEmpty() ||
-                binding.totalPercentage.text.isEmpty()
-            ) {
+            if(currentSalary.isEmpty() || percentage.isEmpty()){
                 Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_SHORT).show()
+
             } else {
-                currentSalary = binding.textCurrentSalary.text.toString()
-                percentage = binding.totalPercentage.text.toString()
+
+                val newSalary = calculateSalaryIncrease(currentSalary, percentage)
+                val formattedCurrentSalary = formatCurrency(currentSalary)
+                val formattedNewSalary = formatCurrency(newSalary.toString())
+                val message =
+                    "Seu salário será ajustado de $formattedCurrentSalary para $formattedNewSalary. \nSeu aumento foi de $percentage%. \n\nParabéns!"
+
+                binding.showNewSalaryText.text = message
+
+                binding.editCurrentSalary.text.clear()
+                binding.editPercentage.text.clear()
+
             }
-
-            val newSalary = calculateSalaryIncrease(currentSalary, percentage)
-
-            val message =
-                "Seu salário será ajustado de R$$currentSalary para R$$newSalary. \nSeu aumento foi de $percentage%. \n\nParabéns!"
-
-            binding.showNewSalaryText.text = message
         }
-
     }
+
     private fun calculateSalaryIncrease(currentSalary: String, percentage: String): Double {
         val salary = currentSalary.toDoubleOrNull()
         val percent = percentage.toDoubleOrNull()
@@ -53,7 +57,15 @@ class Exercicio1 : AppCompatActivity() {
         if (salary != null && percent != null) {
             return (salary * percent.div(100)) + salary
         } else {
-            throw IllegalArgumentException("Valores inválidos")
+            throw IllegalArgumentException("Erro! Valores inválidos!")
         }
     }
+
+    private fun formatCurrency(value: String): String {
+        val formattedValue = value.toDoubleOrNull()?.let {
+            String.format("R$ %.2f", it)
+        } ?: value
+        return formattedValue
+    }
+
 }
