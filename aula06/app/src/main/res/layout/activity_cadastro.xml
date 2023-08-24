@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Novos dados de login"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtNovoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edtNovaSenha"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Informe sua senha"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edtConfirmeSenha"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Confirme sua senha"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Cadastrar"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
