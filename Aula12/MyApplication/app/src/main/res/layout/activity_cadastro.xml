@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".CadastroActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Veículos"
+        android:textSize="26sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca"
+        android:textSize="22sp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo"
+        android:textSize="22sp"
+        android:layout_marginVertical="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cor"
+        android:textSize="22sp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ano"
+        android:inputType="number"
+        android:textSize="22sp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editLicensePlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Placa"
+        android:textSize="22sp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quilometragem"
+        android:inputType="numberDecimal"
+        android:textSize="22sp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Cadastrar Veículo"
+        android:textSize="22sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="40dp"
+        />
+
+
+</LinearLayout>
