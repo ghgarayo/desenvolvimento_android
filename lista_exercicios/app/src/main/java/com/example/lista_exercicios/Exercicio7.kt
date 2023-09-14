@@ -14,7 +14,7 @@ class Exercicio7 : AppCompatActivity() {
         binding = ActivityExercicio7Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val question = "7. Calcular e apresentar o volume de uma lata de óleo cilíndrica,\n" +
+        val question = "7. Calcular e apresentar o volume de uma lata de óleo cilíndrica," +
                         "a partir da leitura do raio da base e da altura. "
 
         binding.question.text = question

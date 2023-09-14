@@ -17,8 +17,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <!-- Pergunta do Exercício 2.
-             Inserida dinamicamente via Exercicio2.kt         -->
+        <!-- Pergunta do Exercício 7.
+             Inserida dinamicamente via Exercicio7.kt         -->
         <TextView
             android:id="@+id/question"
             android:layout_width="match_parent"
