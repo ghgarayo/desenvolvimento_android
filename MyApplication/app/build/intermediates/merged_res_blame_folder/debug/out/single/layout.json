@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/gustavogarayo/.gradle/daemon/8.0/com.example.myapplication.app-mergeDebugResources-27:/layout/layout_carro.xml",
+        "source": "/home/gustavogarayo/.gradle/daemon/8.0/com.example.myapplication.app-main-30:/layout/layout_carro.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-27:/layout/activity_detalhes.xml",
+        "source": "com.example.myapplication.app-main-30:/layout/activity_detalhes.xml"
+    },
+    {
+        "merged": "/home/gustavogarayo/.gradle/daemon/8.0/com.example.myapplication.app-mergeDebugResources-27:/layout/activity_main.xml",
+        "source": "/home/gustavogarayo/.gradle/daemon/8.0/com.example.myapplication.app-main-30:/layout/activity_main.xml"
+    }
+]
